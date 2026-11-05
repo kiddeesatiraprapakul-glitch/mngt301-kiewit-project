@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crew Ready | Building Safer Construction Crews</title>
+<meta name="description" content="A MNGT 301 student proposal on construction labor shortages and equipment knowledge gaps, with training resources, a skills checklist and a guide to who to contact.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">CREW READY</a>
+    <nav class="nav" aria-label="Main">
+      <a href="#gaps">The Gaps</a>
+      <a href="#solutions">Solutions</a>
+      <a href="#equipment">Equipment</a>
+      <a href="#checklist">Skills Checklist</a>
+      <a href="#contact">Who to Contact</a>
+      <a href="#research">Research</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section class="hero dark" id="top">
+  <div class="wrap">
+    <p class="eyebrow">A Kiewit Case Study Proposal</p>
+    <h1>Empowering Industrial Solutions</h1>
+    <img class="hero-img" src="images/job-site.png" alt="Construction crew in hard hats and safety vests working on rebar and concrete forms">
+    <div class="buttons">
+      <a class="btn btn-primary" href="training/osha-training.html">Safety Training</a>
+      <a class="btn btn-outline" href="#equipment">Equipment Resources</a>
+    </div>
+    <p class="lead">Equipment knowledge, training resources and clear lines of contact in one place, so every crew member can do the job safely, even when crews are short staffed.</p>
+  </div>
+</section>
+
+<section id="gaps">
+  <div class="wrap">
+    <p class="eyebrow">The Problem</p>
+    <h2>Identifying the Critical Gaps</h2>
+    <p class="lead">When crews are short staffed, workers face more pressure, longer hours and less time for training. Without solid equipment knowledge, the risk of injuries, damaged equipment and costly mistakes goes up, and the effects reach workers' families and the communities waiting on these projects.</p>
+    <div class="grid">
+      <div class="card">
+        <h3>Manpower Shortage</h3>
+        <p>Fewer workers per crew means heavier workloads, more overtime and less time for supervisors to train new hires before they are on the equipment.</p>
+      </div>
+      <div class="card">
+        <h3>Equipment Mastery</h3>
+        <p>Workers new to a machine or a site may not know where approved instructions are, or who to ask, which turns small knowledge gaps into safety risks.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="light" aria-labelledby="why">
+  <div class="wrap">
+    <h2 id="why">Why It Matters</h2>
+    <div class="grid">
+      <div>
+        <p class="stat-num">1,034</p>
+        <p class="stat-label">construction workers died on the job in 2024</p>
+        <p class="stat-source">Source: <a href="https://www.bls.gov/news.release/cfoi.nr0.htm">U.S. Bureau of Labor Statistics</a></p>
+      </div>
+      <div>
+        <p class="stat-num">1 in 5</p>
+        <p class="stat-label">U.S. workplace deaths in 2024 happened in construction</p>
+        <p class="stat-source">Source: <a href="https://www.bls.gov/news.release/cfoi.nr0.htm">U.S. Bureau of Labor Statistics</a></p>
+      </div>
+      <div>
+        <p class="stat-num">349,000</p>
+        <p class="stat-label">additional workers the industry needs to attract in 2026</p>
+        <p class="stat-source">Source: <a href="https://www.abc.org/wfshortage">Associated Builders and Contractors</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="solutions">
+  <div class="wrap">
+    <p class="eyebrow">Our Proposal</p>
+    <h2>Our Solutions</h2>
+    <p class="lead">Bridging the gap between workforce availability and equipment knowledge through better training and smarter staffing.</p>
+    <div class="grid">
+      <div class="card">
+        <h3>Professional Training</h3>
+        <p>Structured onboarding and hands-on equipment training, tracked with a skills checklist so supervisors know who is ready for which task.</p>
+      </div>
+      <div class="card">
+        <h3>Strategic Hiring</h3>
+        <p>Realistic staffing plans and crew assignments that match experience levels, so new workers are paired with people who can guide them.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="dark" id="equipment">
+  <div class="wrap split">
+    <div>
+      <h2>Expertise &amp; Training</h2>
+      <p class="lead" style="margin-bottom: 20px">Find approved instructions and the right hands-on training for each machine. This site points you to official sources; it does not replace manufacturer manuals or certified training.</p>
+      <div class="link-list">
+        <a class="link-row" href="training/excavators.html"><span>Excavators</span><span aria-hidden="true">&rarr;</span></a>
+        <a class="link-row" href="training/cranes-rigging.html"><span>Cranes and rigging</span><span aria-hidden="true">&rarr;</span></a>
+        <a class="link-row" href="training/aerial-lifts.html"><span>Aerial and scissor lifts</span><span aria-hidden="true">&rarr;</span></a>
+        <a class="link-row" href="training/osha-training.html"><span>OSHA training resources</span><span aria-hidden="true">&rarr;</span></a>
+      </div>
+    </div>
+    <img class="split-img" src="images/excavator.png" alt="Excavator operator in a hard hat lifting a bucket of soil">
+  </div>
+</section>
+
+<section id="checklist">
+  <div class="wrap">
+    <p class="eyebrow">For Supervisors</p>
+    <h2>Skills Checklist</h2>
+    <p class="lead">Check what each crew member has been trained on to spot training needs before assigning tasks.</p>
+    <form class="checklist" id="skills-form">
+      <div class="checklist-top">
+        <label>Crew member name
+          <input type="text" name="worker" autocomplete="off">
+        </label>
+        <button type="button" class="btn btn-small" id="print-btn">Print checklist</button>
+        <button type="reset" class="btn btn-small">Clear</button>
+      </div>
+      <fieldset class="checks">
+        <legend class="sr-only" style="position:absolute;left:-9999px">Training completed</legend>
+        <label><input type="checkbox"> Site safety orientation complete</label>
+        <label><input type="checkbox"> OSHA 10 or OSHA 30 card</label>
+        <label><input type="checkbox"> Fall protection training</label>
+        <label><input type="checkbox"> Equipment specific hands-on training</label>
+        <label><input type="checkbox"> Pre-use equipment inspection</label>
+        <label><input type="checkbox"> Knows who to contact for help</label>
+      </fieldset>
+      <p class="progress" id="progress" aria-live="polite">0 of 6 complete</p>
+    </form>
+  </div>
+</section>
+
+<section class="light" id="contact">
+  <div class="wrap">
+    <h2>Who to Contact</h2>
+    <p class="lead">Not sure about a machine or a task? Follow the chain of command. Stop work and ask before you guess.</p>
+    <div class="grid">
+      <div class="card">
+        <p class="step-num">1</p>
+        <h3>Foreman</h3>
+        <p>Day-to-day questions about tasks and equipment.</p>
+      </div>
+      <div class="card">
+        <p class="step-num">2</p>
+        <h3>Superintendent</h3>
+        <p>Staffing, schedule and crew assignment concerns.</p>
+      </div>
+      <div class="card">
+        <p class="step-num">3</p>
+        <h3>Safety Professional</h3>
+        <p>Hazards, near misses and training requirements.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="research">
+  <div class="wrap">
+    <p class="eyebrow">Our Research</p>
+    <h2>Findings &amp; Recommendations</h2>
+    <p class="lead">We are interviewing construction workers, foremen and safety professionals, and reviewing OSHA, Bureau of Labor Statistics and industry data. Our findings will appear here.</p>
+    <div class="grid">
+      <div class="card">
+        <h3>What we heard</h3>
+        <p>[Interview and survey findings]</p>
+      </div>
+      <div class="card">
+        <h3>What we recommend</h3>
+        <p>[Staffing, training and management recommendations]</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <a class="brand" href="index.html">CREW READY</a>
+      <p>MNGT 301 student project, University of Nebraska-Lincoln. Not affiliated with or endorsed by Kiewit.</p>
+    </div>
+    <p style="max-width: 460px">Max Weber, Tyler Schlueter, Kiddee Satiraprapakul, Owen Haubert, Landon Benorden, Meyer Coffman, Everett Heath</p>
+  </div>
+</footer>
+
+<script>
+  (function () {
+    var form = document.getElementById('skills-form');
+    var boxes = form.querySelectorAll('.checks input[type="checkbox"]');
+    var progress = document.getElementById('progress');
+    function update() {
+      var done = 0;
+      boxes.forEach(function (b) { if (b.checked) done++; });
+      progress.textContent = done + ' of ' + boxes.length + ' complete';
+    }
+    form.addEventListener('change', update);
+    form.addEventListener('reset', function () { setTimeout(update, 0); });
+    document.getElementById('print-btn').addEventListener('click', function () { window.print(); });
+  })();
+</script>
+</body>
+</html>
